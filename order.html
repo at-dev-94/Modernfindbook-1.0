@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Obtain a copy — The Fin' Book</title>
+  <meta name="description" content="Order The Fin' Book. $30 Australian, postage and packaging included. Posted by the author.">
+  <meta name="author" content="Garry De Fina">
+  <meta name="theme-color" content="#090807">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <p class="spine">The Fin' Book</p>
+  <header class="nav">
+    <a class="wordmark" href="index.html">The Fin' <i>Book</i></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span class="bars"></span>
+    </button>
+    <nav id="site-nav">
+      <a href="studies.html">Studies</a>
+      <a href="book.html">The book</a>
+      <a href="order.html" class="nav-cta" aria-current="page">Obtain</a>
+    </nav>
+  </header>
+  
+  <main class="page" id="content">
+    <div class="page-intro">
+      <p class="eyebrow">From the author</p>
+      <h1>Obtain a copy</h1>
+      <p>The book is packed and posted by the author from home. Send the order below. Nothing on this page asks for a card number.</p>
+    </div>
+    <div class="obtain">
+      <aside class="price-card">
+        <p class="eyebrow">Australian dollars</p>
+        <p class="amount">$30</p>
+        <p>Postage and packaging included. This figure stands until the printer’s quotation is confirmed. If it must change, this page will say so before any payment is accepted.</p>
+        <ul>
+          <li><b>The volume</b>A5, 294 pages, with illustrations.</li>
+          <li><b>Delivery</b>Allow two to four weeks after an order is accepted.</li>
+          <li><b>Payment</b>PayPal, added here when copies are ready to post. The money goes to the author.</li>
+        </ul>
+      </aside>
+      <div class="sheet">
+        <form id="order-form">
+          <div class="field">
+            <label for="copies">Copies</label>
+            <select id="copies" name="copies">
+              <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone <span style="letter-spacing:0;text-transform:none">(if you have one)</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="address">Address</label>
+            <input id="address" name="address" autocomplete="street-address" required>
+          </div>
+          <div class="field">
+            <label for="state">State</label>
+            <input id="state" name="state" autocomplete="address-level1" required>
+          </div>
+          <div class="field">
+            <label for="postcode">Postcode</label>
+            <input id="postcode" name="postcode" autocomplete="postal-code" required>
+          </div>
+          <div class="field">
+            <label for="country">Country</label>
+            <input id="country" name="country" autocomplete="country-name" value="Australia" required>
+          </div>
+          <div class="field">
+            <label for="note">Note</label>
+            <textarea id="note" name="note"></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-dark" type="submit">Send this order by email <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+          <p class="fine">This opens an email to the author. If an email program does not open, the message is shown underneath so it can be copied.</p>
+          <div id="order-status" hidden>
+            <p class="fine">Your email program should open with this order. If it does not, copy the message and send it to <a href="mailto:definagarry@gmail.com">definagarry@gmail.com</a>.</p>
+            <pre id="order-copy"></pre>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="steps" aria-label="How a copy is sent">
+      <div class="step"><b>01 Ask</b><span>Send the order. It goes only to the author.</span></div>
+      <div class="step"><b>02 Confirm</b><span>He replies. When copies are ready, payment is taken through PayPal.</span></div>
+      <div class="step"><b>03 Post</b><span>The book is packed at home. Allow two to four weeks.</span></div>
+    </div>
+    <div class="pay-note">
+      <p class="eyebrow">Card payment</p>
+      <p>A PayPal button will be placed here when printed copies are ready to post. Card numbers are never typed into this website.</p>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <div>
+      <p class="title">The Fin' Book</p>
+      <p>&copy; Garry De Fina. All rights reserved.</p>
+    </div>
+    <p>The raised hand is the first page. It means this work is not offered to everyone. The studies on this site are brief openings. The printed book is the full work.</p>
+    <p><a href="order.html">Obtain a copy</a><br><a href="mailto:definagarry@gmail.com">definagarry@gmail.com</a></p>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
